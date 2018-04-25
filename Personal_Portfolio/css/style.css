@@ -1,0 +1,97 @@
+/*
+Redish grey - 685e5e
+
+Black - 000000
+
+off white - f7f6f6
+
+greenish grey - c1c1ae
+
+white - ffffff
+
+dark grey - 444444
+
+very dark grey - 232323
+
+*/
+
+body {
+    height: 300vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'bungee inline', helvetica;
+    background-color: rgb(31, 29, 29);
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    font-family: helvetica;
+}
+
+.heading{
+    text-align: center;
+    color: #f7f6f6;
+    font-family: 'bungee inline';
+    font-size: 24px;
+    padding: 20px;
+}
+
+.logo{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+}
+
+.container{
+    width: 1000px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+nav {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: stretch;
+    
+}
+
+.navMenu {
+    display: flex;
+    justify-content: space-evenly;
+    color: #f7f6f6;
+    flex-grow: 1;
+}
+
+.tagLine {
+    background-color: white;
+    color: #685e5e;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    text-align: center;
+ }
+
+.strategy {
+    width: 100%;
+    align-items: center;
+    border: 1px solid yellow;
+    background-color: black;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    display: flex;
+}
+
+.box {
+    border: 1px solid green;
+    color: #f7f6f6;
+    text-align: center;
+    padding: 30px;
+}
+
